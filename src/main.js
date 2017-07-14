@@ -76,7 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const url = (httpsEnabled ? 'wss://' : 'ws://') + window.location.host + '/ws'
     const protocols = ['tty']
     const socket = new WebSocket(url, protocols)
-    // const socket = new WebSocket('ws://192.168.1.119/cloud/websocket/ssh')
     const term = createTerm(socket) // term.destroy()
 
     socket.onopen = (event) => {
