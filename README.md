@@ -1,11 +1,16 @@
 # Xterm.js Example
 
-使用 [xterm.js](https://github.com/sourcelair/xterm.js) 类库结合 Node.js 完成 web terminal。
+使用 [xterm.js](https://github.com/sourcelair/xterm.js) 类库结合 Node.js 完成 web terminal 例子。
+
+## Dependence
+
+* Node.js v8+
+* npm v5+
 
 ## Install
 
 ```bash
-git clone  https://github.com/lovefishs/xterm-example.git
+git clone https://github.com/lovefishs/xterm-example.git
 cd xterm-example
 npm install
 ```
@@ -22,7 +27,7 @@ Open a new command line
 node server/app.js
 ```
 
-## build
+## Build
 
 ```bash
 npm run build
